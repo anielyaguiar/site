@@ -1,0 +1,110 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#teoria {
+  width: 100%;
+  height: 84vh;
+}
+
+header {
+  width: 100%;
+  height: 16vh;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu {
+  width: 100%;
+  height: 16vh;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h2 {
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+  font-size: 4rem;
+}
+
+.conteudo-teoria {
+  height: 84vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#opl-paragrafo {
+  font-size: 1.5rem;
+}
+
+.conteudo-teoria p {
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+  font-size: 2.1rem;
+  text-align: center;
+  width: 40%;
+}
+
+.armario {
+  width: 769px;
+  height: 470px;
+}
+
+.logica {
+  width: 600px;
+  height: 388px;
+}
+
+/* inicio dark */
+input[type="checkbox"] {
+  display: none;
+}
+.dark,
+.dark header {
+  background-color: #263238;
+  color: #fff;
+}
+.bi {
+  font-size: 3rem;
+  cursor: pointer;
+}
+.bi-moon {
+  display: none;
+}
+.dark .bi-sun {
+  display: none;
+}
+.dark .bi-moon {
+  display: block;
+}
+.bi-x {
+  font-size: 5rem;
+}
+
+.dark #segundaPagina,
+.dark #terceiraPagina {
+  color: #fff;
+}
+
+/* fim dark */
+
+#segundaPagina {
+  border: transparent;
+  height: 70px;
+  z-index: 1;
+  background-color: transparent;
+}
+
+#terceiraPagina {
+  border: transparent;
+  height: 70px;
+  z-index: 3;
+  background-color: transparent;
+}

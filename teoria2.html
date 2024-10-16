@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
+
+    <script
+      src="https://kit.fontawesome.com/f47e48370b.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="./teoria.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+
+    <title>Operadores Lógicos</title>
+  </head>
+  <body>
+    <header class="menu">
+      <i onclick=" toclose()" id="principio" class="bi bi-x"></i>
+
+      <h2>Operadores Lógicos</h2>
+
+      <div>
+        <input type="checkbox" name="Mudar-tema" id="Mudar-tema" />
+        <label for="Mudar-tema">
+          <i class="bi bi-sun"></i>
+          <i class="bi bi-moon"></i>
+        </label>
+      </div>
+    </header>
+
+    <section id="teoria">
+      <div class="conteudo-teoria">
+        <button onclick="telaanterior()" id="terceiraPagina">
+          <i class="bi bi-arrow-left-circle"></i>
+        </button>
+
+        <p id="opl-paragrafo">
+          Eles permitem realizar operações de comparação e combinação de valores
+          booleanos, ou seja, valores que podem ser verdadeiros (true) ou falsos
+          (false).
+          <br />
+          <br />
+          Eles não servem para comparar resultados de expressões ou números,
+          eles apenas servem para comparar outros resultados lógicos .
+        </p>
+
+        <img
+          class="logica"
+          src="./img/Operadores-Logicos-removebg-preview.png"
+          alt="armario marrom contenod dois objetos, uma bola e outro sapato"
+        />
+
+        <button onclick="telaseguinte()" id="terceiraPagina">
+          <i class="bi bi-arrow-right-circle"></i>
+        </button>
+      </div>
+    </section>
+
+    <script src="./teoria.js"></script>
+  </body>
+</html>
